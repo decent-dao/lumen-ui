@@ -72,9 +72,8 @@ export function parseColorsV1(colorFigmaTokens: any) {
 }
 
 export function parsedColorsV1() {
-  const { color, gradient } = colorPalette;
+  const { color } = colorPalette;
   const colors = parseColorsV1(color);
-  const gradients = parseColorsV1(gradient);
   
-  return { ...colors, ...gradients }
+  return { ...colors }
 }

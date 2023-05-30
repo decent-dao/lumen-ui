@@ -1,15 +1,6 @@
-import { parseTypography } from '../../../helpers';
-import tokenData from '../../design-tokens-export.json'
+import { parsedTypographyV1 } from '../../../helpers';
 
-const { font: { sans, mono } } = tokenData
 
-export const sansTypography: { [key: string]: { [key: string]: {} } } = parseTypography(sans)
-export const monoTypography: { [key: string]: { [key: string]: {} } } = parseTypography(mono)
+const v1Font: { [key: string]: { [key: string]: {} } } = parsedTypographyV1()
 
-// @todo add support for v1 typography
-// const v1Font: { [key: string]: { [key: string]: {} } } = parsedTypographyV1()
-
-export default {
-    ...sansTypography,
-    ...monoTypography
-}
+export default v1Font
