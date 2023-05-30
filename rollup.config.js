@@ -15,7 +15,7 @@ export default {
       file: packageJson.main,
       format: 'cjs',
       sourcemap: true,
-      name: 'fractal-design'
+      name: 'lumen-design'
     },
     {
       file: packageJson.module,

@@ -26,7 +26,7 @@ function ColorInfo({ colorKey, colorDescription }: { colorKey: string, colorDesc
 export function GeneralColors() {
   return (
     <Box mb="2rem">
-      <TitleDescription title="General" description="From backgrounds, to selection, to icons, these general colors apply across the Fractal product" />
+      <TitleDescription title="General" description="From backgrounds, to selection, to icons, these general colors apply across the Lumen product" />
       <ColorInfo colorKey="gold.500" colorDescription="Primary button CTA, Focus outline" />
       <ColorInfo colorKey="grayscale.100" colorDescription="Icons" />
       <ColorInfo colorKey="black.900-semi-transparent" colorDescription="Used for component container backgrounds like activity cards" />
@@ -37,7 +37,7 @@ export function GeneralColors() {
 export function TextColors() {
   return (
     <Box mb="2rem">
-      <TitleDescription title="Text" description="The only color used for Fractal typography" />
+      <TitleDescription title="Text" description="The only color used for Lumen typography" />
       <ColorInfo colorKey="grayscale.100" colorDescription="Used for headline text, body text" />
       <ColorInfo colorKey="gold.500" colorDescription="Text link within a paragraph" />
       <ColorInfo colorKey="chocolate.200" colorDescription="Labels" />

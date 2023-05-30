@@ -1,4 +1,4 @@
-# Fractal UI
+# Lumen UI
 
 ## Requires
 `Chakra-ui` v2 or greater 
@@ -7,7 +7,7 @@
 ## install
 
 ```shell
-$ npm install @decent-org/fractal-ui
+$ npm install @decent-org/lumen-ui
 ```
 
 ## local development

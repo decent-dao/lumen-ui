@@ -1,5 +1,5 @@
 import { ComponentWithAs, createIcon, IconProps } from "@chakra-ui/react"
-
+// @todo replace with Lumen logo
 export const FractalBrandBurger: ComponentWithAs<"svg", IconProps> = createIcon({
   displayName: "FractalBrandBurger",
   viewBox: "0 0 24 24",

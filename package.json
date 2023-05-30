@@ -1,5 +1,5 @@
 {
-  "name": "@decent-org/fractal-ui",
+  "name": "@decent-org/lumen-ui",
   "version": "0.1.19",
   "description": "Decent DAO design system component library",
   "main": "dist/cjs/index.js",
@@ -14,7 +14,7 @@
     "design system",
     "web3",
     "storybook",
-    "fractal",
+    "lumen",
     "decent dao"
   ],
   "scripts": {
