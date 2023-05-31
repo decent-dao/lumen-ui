@@ -10,8 +10,8 @@ export const theme = create({
     brandUrl: '/',
     brandTarget: '_self',
 
-    colorPrimary: '#1B1A1A',
-    colorSecondary: '#FABD2E',
+    colorPrimary: '#000c2eff',
+    colorSecondary: '#0032b4ff',
 
     // Typography
     fontBase: 'IBM Plex Sans',
@@ -19,13 +19,13 @@ export const theme = create({
 
     // UI
     appBorderRadius: 4,
-    appContentBg: '#999'
+    appContentBg: '#fcffff'
 });
 
 export const docsTheme = create({
-    "base": "dark",
-    "appContentBg": "#212121ff",
-    "fontBase": "\"Nunito Sans\", -apple-system, \".SFNSText-Regular\", \"San Francisco\", BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-    "fontCode": "ui-monospace, Menlo, Monaco, \"Roboto Mono\", \"Oxygen Mono\", \"Ubuntu Monospace\", \"Source Code Pro\", \"Droid Sans Mono\", \"Courier New\", monospace",
-    "textColor": "#FFFFFF",
+    base: "light",
+    appContentBg: "#fcffff",
+    fontBase: 'IBM Plex Sans',
+    fontCode: 'IBM Plex Mono, monospace',
+    textColor: "#000",
 })
