@@ -1,6 +1,5 @@
 import { ComponentWithAs, Flex, IconProps, Text } from "@chakra-ui/react"
-import * as icons from '../../src'
-
+import *  as icons from '../../src'
 export function DisplayIconography() {
   return (
     <Flex flexWrap="wrap" justifyContent="space-between" gap="1rem">
