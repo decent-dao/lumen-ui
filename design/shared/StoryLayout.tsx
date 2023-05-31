@@ -9,7 +9,7 @@ export function StoryLayout({ title, children }: IStoryLayout) {
   return (
     <Box>
       <TitleBanner title={title} />
-      <Box padding="8">{children}</Box>
+      <Box>{children}</Box>
     </Box>
   )
 }

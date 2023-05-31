@@ -6,8 +6,8 @@ interface ITitleBanner {
 
 export function TitleBanner({title}: ITitleBanner) {
   return (
-    <Box bg="black.700" padding="8" borderRadius="8">
-      <Text color="gold.500" textStyle="text-4xl-mono">{title}</Text>
+    <Box bg="#2C2C2C" padding="8" borderRadius="8">
+      <Text color="#FFFFFF" textStyle="display-lg">{title}</Text>
     </Box>
   )
 }

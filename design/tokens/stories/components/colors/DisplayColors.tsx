@@ -8,7 +8,7 @@ export function DisplayColors() {
         return (
           <Box key={colorCategory + index} my="4rem" w="full">
             <Box p="1rem">
-              <Text color="chocolate.200" borderBottom="1px" pb="1rem" mb="1rem" textStyle="text-3xl-mono-semibold">{colorCategory.toUpperCase()}</Text>
+              <Text color="#2C2C2C" borderBottom="1px" pb="1rem" mb="1rem" textStyle="text-3xl-mono-semibold">{colorCategory.toUpperCase()}</Text>
               <Flex flexWrap="wrap" gap="2rem" justifyContent="space-between">
                 {Object.entries(values as Object).map(([colorTitle, value], i) => {
                   const colorName = `${colorCategory}.${colorTitle}`
