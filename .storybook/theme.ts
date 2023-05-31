@@ -4,7 +4,7 @@ const logo = require("./assets/logo.svg") as string;
 const isLocalhost = globalThis.location?.toString().includes('localhost');
 
 export const theme = create({
-    base: 'dark',
+    base: 'light',
     brandTitle: isLocalhost ? 'Lumen Local' : 'Lumen',
     brandImage: logo,
     brandUrl: '/',
